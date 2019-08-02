@@ -20,5 +20,4 @@ transaction_inputs=(
 	"restriction_account/account_operation_restriction"
 	"restriction_mosaic/mosaic_address_restriction"
 	"restriction_mosaic/mosaic_global_restriction"
-	"transfer/transfer"
-)
+	"transfer/transfer")
