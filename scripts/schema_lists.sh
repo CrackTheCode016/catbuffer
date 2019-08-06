@@ -21,3 +21,16 @@ transaction_inputs=(
 	"restriction_mosaic/mosaic_address_restriction"
 	"restriction_mosaic/mosaic_global_restriction"
 	"transfer/transfer")
+
+
+state_inputs=(
+	"state/account_resrictions_serializer"
+	"state/account_state_serializer"
+	"state/hash_lock_serializer"
+	"state/lock_info_serializer"
+	"state/metadata_entry_serializer"
+	"state/mosaic_entry_serializer"
+	"state/multisig_entry_serializer"
+	"state/root_namespace_history_serializer"
+	"state/secret_lock_serializer"
+)
