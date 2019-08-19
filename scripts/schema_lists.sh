@@ -30,6 +30,7 @@ state_inputs=(
 	"state/lock_info_serializer"
 	"state/metadata_entry_serializer"
 	"state/mosaic_entry_serializer"
+	"state/mosaic_restriction_entry_serializer"
 	"state/multisig_entry_serializer"
 	"state/root_namespace_history_serializer"
 	"state/secret_lock_serializer"

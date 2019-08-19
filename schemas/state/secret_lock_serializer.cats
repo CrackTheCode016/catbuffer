@@ -1,4 +1,4 @@
-import "lock_secret/lock_hash_algorithm.cats"
+import "lock_secret/lock_secret_types.cats"
 import "types.cats"
 
 # binary layout for serialized lock transaction

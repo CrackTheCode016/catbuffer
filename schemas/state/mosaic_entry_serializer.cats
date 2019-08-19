@@ -1,4 +1,10 @@
-import "mosaic/mosaic_definition.cats"
+import "types.cats"
+
+# TODO fix this file
+
+struct MosaicProperty
+
+	id = uint32
 
 # binary layout for mosaic definition
 struct MosaicDefinition

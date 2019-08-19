@@ -1,5 +1,5 @@
 import "types.cats"
-import "restriction_account/account_restriction_types.cats"
+import "restriction_account/restriction_account_types.cats"
 
 # binary layout for account restrictions
 struct AccountRestrictionsInfo
