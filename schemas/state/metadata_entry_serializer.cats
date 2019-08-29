@@ -19,7 +19,3 @@ struct MetadataEntry
 
 	# value
 	value = MetadataValue
-
-
-
-

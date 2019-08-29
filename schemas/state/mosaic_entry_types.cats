@@ -1,3 +1,4 @@
+import "types.cats"
 
 # available mosaic property ids enum
 enum MosaicPropertyId : uint8 

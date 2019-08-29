@@ -20,4 +20,3 @@ struct MetadataValue
 
 	# actual data
 	data = uint8
-

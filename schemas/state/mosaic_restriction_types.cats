@@ -60,9 +60,3 @@ struct GlobalKeyValueSet
 
     # key value array
 	keys = array(GlobalKeyValue, keyValueSize)
-
-
-
-
-
-

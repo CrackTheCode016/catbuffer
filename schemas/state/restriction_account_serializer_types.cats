@@ -1,5 +1,4 @@
 import "types.cats"
-import "restriction_account/restriction_account_types.cats"
 
 # binary layout for account restrictions
 struct AccountRestrictionsInfo
@@ -11,14 +10,3 @@ struct AccountRestrictionsInfo
 
 	# restrictions values
 	restrictionValues = array(AccountRestrictionType, restrictionValuesCount)
-
-# binary layout for account restrictions serializer
-struct AccountRestrictions
-	# address in which restrictions are placed
-	address = Address
-
-	# size of resrictions 
-	restrictionsSize = uint64
-	
-	# restrictions to be serialized
-	restrictions = AccountRestrictionsInfo

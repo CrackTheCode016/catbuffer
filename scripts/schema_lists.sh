@@ -24,7 +24,7 @@ transaction_inputs=(
 
 
 state_inputs=(
-	"state/account_resrictions_serializer"
+	"state/resriction_account_serializer"
 	"state/account_state_serializer"
 	"state/hash_lock_serializer"
 	"state/lock_info_serializer"
@@ -32,6 +32,6 @@ state_inputs=(
 	"state/mosaic_entry_serializer"
 	"state/mosaic_restriction_entry_serializer"
 	"state/multisig_entry_serializer"
-	"state/root_namespace_history_serializer"
+	"state/namespace_history_serializer"
 	"state/secret_lock_serializer"
 )
